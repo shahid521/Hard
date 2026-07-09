@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Marketplace - Discover</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">MARKET.</div>
+        <input type="text" class="search-bar" placeholder="Search items...">
+        <nav class="nav-links">
+            <a href="dashboard.html">Sell</a>
+            <a href="messages.html">Messages</a>
+            <a href="dashboard.html">Profile</a>
+        </nav>
+    </header>
+    
+    <nav class="category-menu">
+        <a href="#">Electronics</a>
+        <a href="#">Books</a>
+        <a href="#">Vehicles</a>
+        <a href="#">Home</a>
+    </nav>
+
+    <main class="product-grid" id="productGrid">
+        <!-- Products will be injected here via js/ui.js -->
+    </main>
+
+    <script src="js/api.js"></script>
+    <script src="js/ui.js"></script>
+</body>
+</html>

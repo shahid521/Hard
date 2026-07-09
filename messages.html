@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messages</title>
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/layout.css">
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo"><a href="index.html">MARKET.</a></div>
+        <nav class="nav-links">
+            <a href="index.html">Home</a>
+            <a href="dashboard.html">Dashboard</a>
+        </nav>
+    </header>
+
+    <main class="chat-container">
+        <aside class="chat-sidebar">
+            <div class="chat-thread active">
+                <strong>User_A</strong>
+                <p>Regarding: Professional Laptop...</p>
+            </div>
+            <div class="chat-thread">
+                <strong>User_B</strong>
+                <p>Is this still available?</p>
+            </div>
+        </aside>
+        
+        <section class="chat-window">
+            <div class="messages-area">
+                <div class="message incoming">Hello, is the laptop still available?</div>
+                <div class="message outgoing">Yes, it is. Are you local?</div>
+                <div class="message incoming">Yes, I can meet up tomorrow.</div>
+            </div>
+            <div class="message-input-area">
+                <input type="text" class="msg-input" placeholder="Type a message...">
+                <button class="action-btn">Send</button>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
